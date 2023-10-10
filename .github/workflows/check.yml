@@ -49,7 +49,7 @@ jobs:
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
 
-      # - name: Terraform Destroy (Optional)
-      #   run: terraform destroy -auto-approve
+      - name: Terraform Destroy (Optional)
+        run: terraform destroy -auto-approve
         # This step is optional and should be used with caution in production.
 
