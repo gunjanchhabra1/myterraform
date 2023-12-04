@@ -6,3 +6,5 @@ module "rds" {
   instanceClass = var.instanceClass
   dbidentifier = var.dbidentifier
 }
+
+"main file"
